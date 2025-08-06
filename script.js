@@ -109,12 +109,88 @@
 //----------------------Modifying Element-----------------
 
 
-var btn = document.querySelector("button");
+// var btn = document.querySelector("button");
 
-btn.textContent = "Start downloading in 3 Second..."
+// btn.textContent = "Start downloading in 3 Second..."
 
-var hea = document.querySelector("h1");
+// var hea = document.querySelector("h1");
 
-hea.textContent += "Helloooooo";
+// hea.textContent += "Helloooooo";
 
-hea.innerHTML = "<i>My Name Is Akash<i/>";
+// hea.innerHTML = "<i>My Name Is Akash<i/>";
+
+
+//----------------------Manipulating Styles And ClassList-----------------
+
+
+// var h1 = document.querySelector("h1");
+// h1.style.color = "red";
+// h1.style.fontFamily = "gilroy";
+// h1.style.fontSize = "75px";
+
+
+
+// var h1 = document.querySelector("h1")
+// h1.classList.add('makeitred');
+// h1.classList.remove('makeitred');
+
+
+//----------------------Creating And Deleting Elements-----------------
+
+// var h1 = document.createElement("h1");
+// h1.textContent = "Hey";
+// h1.classList.add("makeitred");
+
+// document.querySelector("body").appendChild(h1);
+
+
+// var img = document.createElement("img");
+// img.src = "https://images.unsplash.com/photo-1754373383763-cb8b845de06a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+
+
+// document.querySelector('body').appendChild(img);
+
+// var btn = document.querySelector("button");
+
+
+
+//--------------------------Event Handling-------------------------------------
+
+// var btn = document.querySelector("button");
+// btn.addEventListener("click", function(){
+//     btn.textContent = "Starting Downloading...";
+//     btn.style.backgroundColor = "red";
+// });
+
+
+// var btn = document.querySelector("button");
+// btn.addEventListener("mouseover", function(){
+//     btn.textContent = "Starting Downloading...";
+//     btn.style.backgroundColor = "red";
+// });
+
+// var btn = document.querySelector("button");
+// btn.addEventListener("mouseleave", function(){
+//     btn.textContent = "Make It New Card";
+//     btn.style.backgroundColor = "White";
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
