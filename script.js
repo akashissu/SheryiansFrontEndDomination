@@ -176,6 +176,92 @@
 // });
 
 
+// var btn = document.querySelector("button");
+// btn.addEventListener("click",function(){
+//     btn.textContent = "Hello My Name IS Akash";
+// })
+
+// var img1 = document.querySelector("#one");
+// var img2 = document.querySelector("#two");
+
+// var btn = document.querySelector("button")
+// btn.addEventListener("click",function(){
+
+//     var src1 = img1.src;
+//     var src2 = img2.src;
+
+//     img1.src = src2;
+//     img2.src = src1;
+// })
+
+
+// var form = document.querySelector("form");
+
+// var inp1 = document.querySelector("inp1");
+// var inp2 = document.querySelector("inp2"); instead of this 
+
+// we can write
+
+// var inps = document.querySelectorAll('input[type="text"]');
+// var h4 = document.querySelector("h4");
+
+
+// form.addEventListener("submit",function(ev){
+//     ev.preventDefault();
+//     for(var i = 0; i<inps.length; i++){
+//         if(inps[i].value.trim() === ''){
+//             h4.textContent = "Error, Some Filed Are Blank";
+//             h4.style.color = "red";
+//             break;
+//         }
+//     }
+
+
+
+
+
+    // inps.forEach(function(inp){
+    //     if(inp.value === ''){
+    //         h4.textContent = 'Error, Some Field Are Blank';
+    //         h4.style.color = "red";
+    //     }
+    //     else{
+
+    //     }
+
+    // })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //iske jagah pe upper likunga 
+
+    // if (inp1.value === '' || inp2.value === ''){
+    //     h4.textContent = "error, some feild are blank.";
+    //     h4.style.color = "red";
+    // }
+    // else{
+    //     h4.textContent = "";
+    //     h4.style.color = "black";
+    // }
+
+// })
+
+
+
+
+
+
 
 
 
