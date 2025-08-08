@@ -260,6 +260,75 @@
 
 
 
+// var add = document.querySelector("#add");
+// var remove = document.querySelector("#remove");
+// var inp = document.querySelector("input");
+// var ul = document.querySelector('ul');
+// var li; 
+
+
+
+// add.addEventListener("click",function(){
+//     if(inp.value.trim() === ""){}
+//     else{
+        
+//         li = document.createElement('li');
+//         li.textContent = inp.value;
+//         ul.appendChild(li);
+//         inp.value = "";
+//     }
+// })
+
+
+// remove.addEventListener("click",function(){
+//     ul.removeChild(li)
+// })
+
+// var btn = document.querySelector("button");
+// var h3 = document.querySelector("h3");
+
+// btn.addEventListener("click",function(){
+//     var count = 0;
+//     setInterval(function() {
+//         h3.textContent = count;
+//         count++;
+//     },1000);
+       
+// });
+
+
+// var home = document.querySelector("#Home");
+// var about = document.querySelector("#about");
+// var contact = document.querySelector("#Contact");
+
+
+// var hometext = document.querySelector("#Hometext");
+// var abouttext = document.querySelector("#AboutText");
+// var contacttext = document.querySelector("#ContactText");
+
+// hometext.style.display = "initial";
+
+
+// home.addEventListener("click",function(){
+//     Hometext.style.display = "block";
+//     Hometext.style.width = "50%";
+// })
+
+
+// about.addEventListener("click",function(){
+//     AboutText.style.display = "block";
+//     AboutText.style.width = "50%";
+// })
+
+
+// contact.addEventListener("click",function(){
+//     contactText.style.display = "block";
+//     contactText.style.width = "50%";
+// })
+
+
+
+
 
 
 
