@@ -40,7 +40,7 @@ h3{
 } */
 
 
-#downloadcapsule{
+/* #downloadcapsule{
     position: absolute;
     top:50%;
     left: 50%;
@@ -52,5 +52,12 @@ h3{
 }
 
 #progress{
-    
-}
+    width: 0%;
+    height: 100%;
+    border-radius: 100px;
+    background-color: rgb(65,180,65);
+
+} */
+
+
+#main
